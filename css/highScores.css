@@ -1,0 +1,34 @@
+#highScoresList {
+   width: 70%;
+   margin: auto;
+   text-align: center;
+   padding-left: 0;
+   margin-bottom: 4rem;
+   border-collapse: collapse;
+   border-left: .1rem solid #56a5eb;
+   border-right: .1rem solid #56a5eb;
+   border-bottom: .1rem solid #56a5eb;
+}
+
+#highScoresList tr:nth-child(even) {
+   background: #fff;
+}
+#highScoresList tr th{
+   background-color: #56a5eb;
+   font-size: 2.5rem;
+   padding: 1rem 0;
+   color: #fff;
+}
+#highScoresList tr td {
+   font-size: 2rem;
+   padding: 1rem;
+   color: #56a5eb;
+}
+.high-score {
+   font-size: 2.8rem;
+   margin-bottom: .5rem;
+} 
+
+.high-score:hover {
+   transform: scale(1.055);
+}
